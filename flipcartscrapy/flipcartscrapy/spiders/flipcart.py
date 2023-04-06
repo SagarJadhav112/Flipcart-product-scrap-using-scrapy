@@ -82,26 +82,4 @@ class FlipcartSpider(scrapy.Spider):
 
 
     
-        # if next_page is not None :
-        #     next_page_url = "https://www.flipkart.com" + next_page
-        #     yield scrapy.Request(next_page_url, callback=self.parse)
-
-
-        # next_page = response.css('a._1LKTO3 ::attr(href)'[1]).extract()  
-        # if next_page is not None:
-        #     next_page_url = "https://www.flipkart.com"+ next_page
-        #     yield response.follow(next_page_url,callback=self.parse)
-        # 
-        #  
-        # # if next_page:
-        #     abs_url = f"https://www.amazon.in{next_page}"
-        #     yield scrapy.Request(
-        #         url = abs_url,
-        #         callback = self.parse 
-
-
-
-
-
-
         
